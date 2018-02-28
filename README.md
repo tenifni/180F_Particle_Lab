@@ -1,2 +1,2 @@
-# 180F_Particlel_Lab
+# 180F_Particle_Lab
 UCLA Physics 180F particle lab
