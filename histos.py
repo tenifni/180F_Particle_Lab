@@ -33,7 +33,7 @@ print 'Best-fit parameters:'
 par_names = ['  A', ' mu', 'sig']
 for i in range(3):
 	print par_names[i],
-	print '{0:.3f}'.format(optimal_pars[i]).rjust(8), '+-',
+	print '{0:.3f}'.format(optimal_pars[i]).rjust(8), '+-', end='')
 	print '{0:.3f}'.format(par_error[i]).ljust(8)
 
 # Plot + save output
